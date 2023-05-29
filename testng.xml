@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<parameter name="URL" value="https://rahulshettyacademy.com/dropdownsPractise/"/>
+
+	<test name="Test">
+		<classes>
+			<class name="calender.Calender">
+				<methods>
+
+					<include name="login" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+	 <!-- Test -->
+	 
+	 	<test name="Test">
+		<classes>
+			<class name="windowHandle.SwitchTabs">
+				<methods>
+
+					<include name="" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test> 
+	<!-- Test -->
+</suite> <!-- Suite -->
